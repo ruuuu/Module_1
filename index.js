@@ -22,3 +22,5 @@
     console.log('goodName is', goodName);
     console.log(`generalGoodsPrice is ${goodCount * goodPrice}`);
 }
+
+
