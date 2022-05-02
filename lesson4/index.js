@@ -46,12 +46,6 @@
     const price = +(prompt('Цена товара'));
     console.log('typeof (price)', typeof (price));
 
-    // if ((typeof (count) === Number) && (typeof (price) === Number)) {
-    //     console.log(`На складе  ${count} единицы товара  "${good}" на сумму ${price} деревянных`);
-    // } else {
-    //     console.log('Вы ввели некорректные данные');
-    // }
-
     function isAN(value) {
         return (value instanceof Number || typeof value === 'number') && !isNaN(value);
     }
