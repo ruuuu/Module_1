@@ -37,15 +37,21 @@
     console.log(typeof (good));
 
     const count = +(prompt('Количество товара'));
-    console.log(typeof (count));
+    if (typeof (count) === Number) {
+        console.log(typeof (count));
+    } else {
+        console.log('Вы ввели некорректные данные');
+    }
+
+
 
     const category = prompt('Категория товара');
-    console.log(typeof (category));
+    //console.log(typeof (category));
 
     const price = +(prompt('Цена товара'));
-    console.log(typeof (price));
+    //console.log(typeof (price));
 
-    console.log(`На складе  ${count} единицы товара  "${good}" на сумму ${price} деревянных`);
+    //console.log(`На складе  ${count} единицы товара  "${good}" на сумму ${price} деревянных`);
 
 
 
